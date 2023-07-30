@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Shantell+Sans:wght@300&family=Sofia+Sans+Semi+Condensed:wght@300&display=swap');
+
+.App {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+
+}
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items:baseline;
+  justify-content:space-between;
+}
+
+.Logo{
+  font-family:'Caveat', cursive;
+  font-size: 40px;
+}
+
+.Header-left{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: baseline;
+}
+/* --------------------- */
+/* BODY */
+
+.body-part1{
+  font-family:'Shantell Sans', cursive;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
+}
+.part1-right{
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: center;
+
+}
+.header2{
+  font-size: 40px;
+}
+
+.long-text{
+  font-size: 25px;
+}
+
+.wishButton{
+  font-family:'Shantell Sans', cursive;
+  font-size: 18px;
+  margin-top:5%;
+
+}
+
+.Family_image{
+width: 400px;
+}
+
+.final-part{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8%;
+  padding-bottom: 5%;
+  }
+  
+  .nfactext{
+    width: 234px;
+  height: 18px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #081E34;
+  }
+  
+  .creditstext{
+  width: 180px;
+  height: 18px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #081E34;
+  opacity: 0.5;
+  }
